@@ -1,4 +1,6 @@
 Project1::Application.routes.draw do
+  resources :posts
+
   get "sessions/new"
   post "sessions/create"
   get "sessions/destroy"
